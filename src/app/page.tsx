@@ -23,8 +23,6 @@ export default function Home() {
     <main className="relative min-h-screen selection:bg-accent/20 overflow-x-hidden">
       <Navbar />
       <Hero />
-      
-      {/* Gap filler 1 */}
       <div className="w-full py-5 border-y border-surface-border bg-white/[0.01]">
         <LogoLoop logos={loopItems} speed={80} gap={32} logoHeight={16} />
       </div>
@@ -32,8 +30,6 @@ export default function Home() {
       <Skills />
       <Experience />
       <Certifications />
-
-      {/* Gap filler 2 */}
       <div className="w-full py-5 border-y border-surface-border bg-white/[0.01]">
         <LogoLoop logos={loopItems} speed={-80} gap={32} logoHeight={16} />
       </div>

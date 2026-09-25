@@ -48,7 +48,7 @@ export default function Experience() {
         </h2>
       </motion.div>
 
-      <ChromaWrapper>      {/* Professional */}
+      <ChromaWrapper>
       <div className="mb-14">
         <h3 className="text-xs font-mono text-accent uppercase tracking-widest mb-6">💼 Professional</h3>
         <div className="relative border-l-2 border-surface-border ml-2 space-y-8">
@@ -70,8 +70,6 @@ export default function Experience() {
           ))}
         </div>
       </div>
-
-      {/* Organizational */}
       <div>
         <h3 className="text-xs font-mono text-accent uppercase tracking-widest mb-6">🎓 Organizations</h3>
         <div className="relative border-l-2 border-surface-border ml-2 space-y-8">

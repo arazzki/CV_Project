@@ -50,11 +50,9 @@ export default function Certifications() {
             transition={{ delay: idx * 0.3, duration: 1.2, ease: "easeOut" }}
             className="glass rounded-2xl overflow-hidden group hover:border-accent/20 transition-all duration-300"
           >
-            {/* Top accent bar */}
             <div className="h-1 bg-accent/30 group-hover:bg-accent transition-colors" />
 
             <div className="p-6 flex flex-col h-full">
-              {/* Icon + badge */}
               <div className="flex items-start justify-between mb-5">
                 <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
                   {cert.icon}
@@ -64,13 +62,9 @@ export default function Certifications() {
                   Verified
                 </div>
               </div>
-
-              {/* Title */}
               <h3 className="text-base font-bold text-text mb-3 leading-snug group-hover:text-accent transition-colors">
                 {cert.title}
               </h3>
-
-              {/* Issuer info */}
               <div className="mt-auto pt-4 border-t border-surface-border flex items-center justify-between">
                 <div>
                   <p className="text-[10px] text-muted uppercase tracking-wider">Issued by</p>
