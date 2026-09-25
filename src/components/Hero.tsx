@@ -49,7 +49,6 @@ export default function Hero() {
 
   return (
     <section onMouseMove={handleMouseMove} className="min-h-screen flex items-center pt-36 pb-16 px-6 relative overflow-hidden">
-      {/* Cursor-following glow */}
       <motion.div
         animate={{ x: mousePos.x * 60, y: mousePos.y * 60 }}
         transition={{ type: "spring", stiffness: 40, damping: 20 }}
@@ -59,7 +58,6 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
         <div className="col-span-1 lg:col-span-7 space-y-7">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.2 }}>
-            {/* Status */}
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass text-xs font-medium mb-8">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute h-full w-full rounded-full bg-accent opacity-75" />
@@ -109,13 +107,10 @@ export default function Hero() {
             </a>
           </motion.div>
         </div>
-
-        {/* Avatar with 3D tilt */}
         <motion.div className="col-span-1 lg:col-span-5" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.3, delay: 0.2 }}>
           <motion.div style={{ rotateX: mousePos.y * -8, rotateY: mousePos.x * 8 }} className="w-full max-w-xs mx-auto relative mb-14">
             <div className="glass rounded-2xl overflow-hidden p-1">
               <div className="w-full aspect-[4/5] rounded-xl overflow-hidden relative bg-[#151515]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/profile.jpg" alt="Muhammad Ariq Azzaki" className="object-cover object-top w-full h-full opacity-90 hover:opacity-100 transition-opacity duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-5">

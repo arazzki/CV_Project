@@ -56,8 +56,6 @@ export default function Projects() {
               Proyek pilihan yang menunjukkan proses berpikir dari desain sampai eksekusi, bukan sekadar daftar repositori.
             </p>
           </div>
-
-          {/* Filter pills */}
           <div className="flex flex-wrap gap-2">
             {categories.map((cat) => (
               <button
@@ -74,8 +72,6 @@ export default function Projects() {
             ))}
           </div>
         </motion.div>
-
-        {/* Cards */}
         <ChromaWrapper>
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {filteredProjects.map((project, idx) => {
@@ -89,7 +85,6 @@ export default function Projects() {
                 transition={{ delay: idx * 0.2, duration: 1.2, ease: "easeOut" }}
                 className="glass rounded-2xl overflow-hidden group hover:border-accent/20 transition-all duration-300 flex flex-col"
               >
-                {/* Header */}
                 <div className="h-32 bg-accent-dim p-6 relative flex items-center justify-center border-b border-surface-border">
                   <Icon
                     size={48}
@@ -99,8 +94,6 @@ export default function Projects() {
                     {project.category}
                   </span>
                 </div>
-
-                {/* Body */}
                 <div className="p-6 flex-grow flex flex-col justify-between">
                   <div>
                     <h3 className="text-lg font-bold text-text mb-2 group-hover:text-accent transition-colors">{project.title}</h3>
