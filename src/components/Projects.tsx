@@ -3,11 +3,19 @@
 import ChromaWrapper from "./ChromaWrapper";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { ExternalLink, Bot, Newspaper, BarChart3, ScanLine } from "lucide-react";
+import { ExternalLink, Bot, Newspaper, BarChart3, ScanLine, Code2 } from "lucide-react";
 
-const categories = ["All", "Mobile App", "Bot", "Web App", "Utility"];
+const categories = ["All", "Desktop App", "Mobile App", "Web App", "Bot", "Utility"];
 
 const projects = [
+  {
+    title: "Nemesis IDE",
+    category: "Desktop App",
+    description: "IDE desktop modern & ringan berbasis Electron, React, dan Monaco Editor dengan live terminal runner serta sistem bridge Node.js lokal.",
+    tags: ["Electron", "React", "Monaco Editor", "Node.js"],
+    icon: Code2,
+    githubUrl: "https://github.com/arazzki/NemesisIDE",
+  },
   {
     title: "ScanAja",
     category: "Mobile App",

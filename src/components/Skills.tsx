@@ -13,7 +13,7 @@ const skillsData = [
   {
     category: "Frameworks & Libraries",
     icon: "⚡",
-    items: ["React.js", "Next.js", "Flutter", "Tailwind CSS", "Node.js"],
+    items: ["React.js", "Next.js", "Flutter", "Tailwind CSS", "Electron", "Node.js"],
     span: "md:col-span-1",
   },
   {
