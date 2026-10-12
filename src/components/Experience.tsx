@@ -32,6 +32,12 @@ const organizational = [
     desc: "Memimpin ajang lomba olahraga tingkat prodi dari perencanaan hingga pelaksanaan.",
   },
   {
+    role: "Event Planner Team (EPT)",
+    org: "Proximiti 2026",
+    period: "2026",
+    desc: "Merancang konsep dan mengoordinasikan eksekusi seluruh rangkaian acara kaderisasi mahasiswa baru program studi Teknologi Informasi.",
+  },
+  {
     role: "Koordinator Liaison Officer",
     org: "Megabit 9.0",
     period: "2026",
